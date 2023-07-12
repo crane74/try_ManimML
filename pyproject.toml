@@ -1,0 +1,30 @@
+[project]
+name = "try-manimml"
+version = "0.1.0"
+description = "Add a short description here"
+authors = [
+    { name = "crane74", email = "a18.e73k@g.chuo-u.ac.jp" }
+]
+dependencies = [
+    "manim~=0.17.3",
+    "setuptools~=68.0.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.ruff]
+
+ignore = [
+  "F403",
+  "F405"
+]
