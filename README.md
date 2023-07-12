@@ -1,0 +1,2 @@
+# try_ManimML
+AIの仕組みをアニメーション化できるPythonライブラリ「ManimML」を使ってみる
